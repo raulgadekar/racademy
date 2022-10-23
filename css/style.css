@@ -36,9 +36,9 @@ border-radius: 12px;
 
 }
 
-.floating-cta a,.floating-cta a:hover,.floating-cta a:focuse{
+.floating-cta a,.floating-cta a:hover,.floating-cta a:focus{
   
-  color:#fff;
+  color:#fff !important;
 
 }
 
