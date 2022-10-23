@@ -38,6 +38,19 @@ border-radius: 12px;
 
 }
 
+.floating-cta span{
+  display:block;
+}
+
+@media(min-width:991px){
+.floating-cta{
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    }
+}
+
 
 
 h2 {
