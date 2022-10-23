@@ -35,6 +35,7 @@ border-radius: 12px;
     text-align: center;
     color: #ffffff !important;
     z-index:100;
+	line-height:1.5;
 
 }
 
@@ -43,7 +44,9 @@ border-radius: 12px;
 }
 
 @media(max-width:991px){
-.floating-cta{
+.floating-cta,
+	.floating-cta:hover,
+.floating-cta:focus{
     bottom: 0;
     right: 0;
     left: 0;
