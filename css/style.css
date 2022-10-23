@@ -32,6 +32,13 @@ border-radius: 12px;
     letter-spacing: normal;
     text-align: center;
     color: #ffffff;
+    z-index:100;
+
+}
+
+.floating-cta a,.floating-cta a:hover,.floating-cta a:focuse{
+  
+  color:#fff;
 
 }
 
