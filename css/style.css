@@ -16,6 +16,25 @@ html {
     transition: all 0.8s;
 }
 
+.floating-cta{
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  cursor:pointer;
+  padding:20px;
+border-radius: 12px;
+  background-color: #4a62fb;
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 60px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+
+}
+
 
 h2 {
   font-family: 'Roboto', sans-serif;
