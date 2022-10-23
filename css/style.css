@@ -16,7 +16,9 @@ html {
     transition: all 0.8s;
 }
 
-.floating-cta{
+.floating-cta,
+.floating-cta:hover,
+.floating-cta:focus{
   position:fixed;
   bottom:30px;
   right:30px;
@@ -31,16 +33,11 @@ border-radius: 12px;
     line-height: 60px;
     letter-spacing: normal;
     text-align: center;
-    color: #ffffff;
+    color: #ffffff !important;
     z-index:100;
 
 }
 
-.floating-cta a,.floating-cta a:hover,.floating-cta a:focus{
-  
-  color:#fff !important;
-
-}
 
 
 h2 {
