@@ -42,7 +42,7 @@ border-radius: 12px;
   display:block;
 }
 
-@media(min-width:991px){
+@media(max-width:991px){
 .floating-cta{
     bottom: 0;
     right: 0;
